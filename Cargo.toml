@@ -1,0 +1,12 @@
+[package]
+name = "adkproto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+core = { path = "./core" }
+server = { path = "./server" }
+client = { path = "./client" }
+
+[workspace]
+members = ["core", "server", "client"]
